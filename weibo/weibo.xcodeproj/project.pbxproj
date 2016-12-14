@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B4E4C41E01430C00322274 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E4C31E01430C00322274 /* Person.m */; };
 		16DF01DB1E013BF700EC8A67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DF01DA1E013BF700EC8A67 /* main.m */; };
 		16DF01DE1E013BF700EC8A67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DF01DD1E013BF700EC8A67 /* AppDelegate.m */; };
 		16DF01E11E013BF700EC8A67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DF01E01E013BF700EC8A67 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B4E4C21E01430C00322274 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		16B4E4C31E01430C00322274 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		16DF01D61E013BF700EC8A67 /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DF01DA1E013BF700EC8A67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16DF01DC1E013BF700EC8A67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				16DF01DD1E013BF700EC8A67 /* AppDelegate.m */,
 				16DF01DF1E013BF700EC8A67 /* ViewController.h */,
 				16DF01E01E013BF700EC8A67 /* ViewController.m */,
+				16B4E4C21E01430C00322274 /* Person.h */,
+				16B4E4C31E01430C00322274 /* Person.m */,
 				16DF01E21E013BF700EC8A67 /* Main.storyboard */,
 				16DF01E51E013BF700EC8A67 /* Assets.xcassets */,
 				16DF01E71E013BF700EC8A67 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			files = (
 				16DF01E11E013BF700EC8A67 /* ViewController.m in Sources */,
 				16DF01DE1E013BF700EC8A67 /* AppDelegate.m in Sources */,
+				16B4E4C41E01430C00322274 /* Person.m in Sources */,
 				16DF01DB1E013BF700EC8A67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +505,7 @@
 				16DF02051E013BF700EC8A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16DF02061E013BF700EC8A67 /* Build configuration list for PBXNativeTarget "weiboTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				16DF02081E013BF700EC8A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16DF02091E013BF700EC8A67 /* Build configuration list for PBXNativeTarget "weiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				16DF020B1E013BF700EC8A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
